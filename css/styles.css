@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.tinder-logo-img {
+  height: 3rem;
+  width: 3rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size: 1.25rem;
+}
+
+/* Downlod Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: auto 6rem auto 6rem;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+.features-img {
+  /* color: #ef8172; */
+  /* color: #FFD23F; */
+  margin: 2rem auto;
+  color: rgb(255, 136, 136);
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 6%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  /* background-color: #ef8172; */
+  /* background-color: #FFD23F; */
+  background-color: rgb(255, 136, 136);
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+
+.testimonial-name {
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  /* background-color: #ef8172; */
+  /* background-color: #FFD23F; */
+  background-color: rgb(255, 136, 136);
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  margin: 5rem 5rem;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2rem 2rem;
+}
+
+.pricing-sub-heading {
+  margin: auto auto 3.5rem auto;
+}
+
+.pricing-heading {
+  margin: 1.5rem auto;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta-text {
+  font-family: "Poppins",sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+}
+
+.cta {
+  text-align: center;
+  padding: 5rem 15%;
+}
+
+.cta-button {
+  margin: 3%;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 6.5rem;
+  text-align: center;
+}
+
+.social-media-icon{
+  margin: 2%;
+  /* color: #ef8172; */
+  /* color: #FFD23F; */
+  color: rgb(255, 136, 136);
+}
+
+.social-media-icon:hover{
+  color: #ff4c68;
+}
+
+.GitHub-Link:hover{
+  text-decoration: none;
+}
