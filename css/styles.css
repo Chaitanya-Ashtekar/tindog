@@ -53,7 +53,7 @@ h1 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
-  margin: auto 6rem auto 6rem;
+  margin: auto 6rem 2rem 6rem;
 }
 
 /* Features */
@@ -190,4 +190,18 @@ h2 {
 
 .GitHub-Link:hover{
   text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .title-img {
+    width: 60%;
+    transform: rotate(0deg);
+    margin: auto 6rem auto 6rem;
+    position: relative;
+  }
+
+  .row {
+    text-align: center;
+  }
 }
